@@ -36,7 +36,7 @@ end
 
 def move(board, index, character="X")
   board[index] = character
-  puts board 
+  puts display_board(board)
 end
 
 def turn(board)
